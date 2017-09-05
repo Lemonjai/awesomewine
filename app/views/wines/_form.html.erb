@@ -1,0 +1,11 @@
+<%= simple_form_for (@wine) do |f| %>
+	<%= f.input :name, label: "Wine Title" %>
+	<%= f.input :manufacture, label: "Manufacture" %>
+	<%= f.input :city, label: "City" %>
+	<%= f.input :year, label: "Year" %>
+	<%= f.input :country, label: "Country" %>
+	<%= f.input :summary, label: "Summary" %>
+	<%= f.input :description, label: "Description" %>
+	<br/>
+	<%= f.button :submit %>
+<% end %>

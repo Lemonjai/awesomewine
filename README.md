@@ -1,24 +1,6 @@
-# README
+# AwesomeWine
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This blog is a built on Ruby on Rails for the backend and ReactJS on the frontend. This is a hobby blog which would be pushed into production and served in Heroku also will use cloudinary for image storage.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*Log Sept 5
+- Initial of the application

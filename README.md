@@ -1,6 +1,8 @@
 # AwesomeWine
 
-This blog is a built on Ruby on Rails for the backend and ReactJS on the frontend. This is a hobby blog which would be pushed into production and served in Heroku also will use cloudinary for image storage.
+Purpose: This is a prototype for hobby site and this site is strictly a blog review website.
+
+Goal: To built this website entirely using ReactJS framework for frontend and Ruby on Rails for the backend
 
 Log Sept 6, 2017:
 - Update the Wine Index Page to show jobs
@@ -17,3 +19,11 @@ Log Sept 5, 2017:
 - Setup the controller for the wine
 - Added the create functionality
 - Added the show functionality
+
+
+Technology:
+- Ruby on Rails 5.1
+- Postgresql
+- Sass
+- ReactJS [Work in progress]
+- Webpack [Work in progress]

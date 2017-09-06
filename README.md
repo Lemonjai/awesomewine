@@ -4,3 +4,7 @@ This blog is a built on Ruby on Rails for the backend and ReactJS on the fronten
 
 Log Sept 5
 - Initial of the application
+- Setup the model for the wine
+- Setup the controller for the wine
+- Added the create functionality
+- Added the show functionality

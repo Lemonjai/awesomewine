@@ -1,1 +1,6 @@
-<h1>Hello world</h1>
+<% @wines.each do |wine| %>
+	
+	<h2><%= link_to wine.name, wine %></h2>
+	<p><%= wine.manufacture %></p>
+
+<% end %>

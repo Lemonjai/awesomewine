@@ -10,3 +10,5 @@
 	<%= @wine.summary %><br>
 	<%= @wine.description %><br>
 </p>
+
+<%= link_to "Delete", wine_path(@wine), method: :delete, data: {confirm: "Are you sure?"} %>

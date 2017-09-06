@@ -1,9 +1,9 @@
 class WinesController < ApplicationController
 
-	before_action :find_wine, only: [:show, :edit, :update, :destory]
+	before_action :find_wine, only: [:show, :edit, :update, :destroy]
 
 	def index
-		wines = Wine.all
+		@wines = Wine.all.order("created_at DESC")
 	end
 
 	def show
@@ -25,10 +25,17 @@ class WinesController < ApplicationController
 	def edit
 	end
 
-	def udpate
+	def update
+		if @wine.update(wines_params)
+			redirect_to @wine
+		else
+			render "Edit"
+		end
 	end
 
 	def destroy
+		@wine.destroy
+		redirect_to root_path
 	end
 
 	private 

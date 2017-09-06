@@ -7,6 +7,9 @@ Log Sept 6, 2017:
 - Added the new functionality
 - Added the delete functionality
 - Added the edit/update functionality
+- Added the css for the navbar
+- Added the css for the timeline
+- Added the css for the load more button
 
 Log Sept 5, 2017:
 - Initial of the application

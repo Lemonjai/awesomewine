@@ -1,0 +1,174 @@
+@import 'variable';
+
+#timeline{
+    width: 100%;
+    position:  relative;
+    list-style: none;
+    padding: 0;
+    &:after{
+        content: " ";
+        width: 1px;
+        background: 1px $border;
+        height: 90%;
+        position: absolute;
+        top: 3em;
+        left: 3em;
+        z-index: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    .listing{
+        background: $white;
+        border: 1px solid $border;
+        border-radius: .3em;
+        padding: 1em;
+        margin-bottom: 1em;
+        position: relative;
+        z-index: 1;
+        display: table;
+        width: 96%;
+
+        img, .info, .job_type{
+            display: table-cell;
+            vertical-align: middle;
+            font-size: .9em;
+            color: $secondary;
+        }
+
+        .image_wrapper{
+            width: 60px;
+            img{
+                width: 60px;
+                display: block;
+                margin: 0 auto;
+                border-radius: .25em;
+            }
+        }
+
+        .info{
+            line-height: 1.25;
+            width: 640px;
+            padding-left: 25px;
+            .job_title{
+                font-weight: 700;
+                color: $main;
+                font-size: 1.5em;
+            }
+            .job_info{
+                color: $secondary;
+                display: block;
+                span{
+                    margin: 0 .75em;
+                }
+            }
+        }
+        .job_type{
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: .75em;
+            position: relative;
+            white-space: nowrap;
+            padding-top: .6em;
+            widows: 100px;
+            &:before{
+                content: " ";
+                background-color: $highlight_1;
+                width: 10px;
+                height: 10px;
+                border-radius: 100%;
+                position: absolute;
+                left: -20px;
+                top: 28px;
+            }
+        }
+
+        .full_time{
+            color: $highlight_1;
+            &:before{
+                background: $highlight_1;
+            }
+        }
+
+        .part_time{
+            color: $highlight_2;
+            &:before{
+                background: $highlight_2;
+            }
+        }
+
+        .freelance{
+            color: $highlight_3;
+            &:before{
+                background: $highlight_3;
+            }
+        }
+
+        .contract{
+            color: $highlight_4;
+            &:before{
+                background: $highlight_4;
+            }
+        }
+
+        transition: all .3s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            box-shadow: 0px 2px 40px 0 rgba(0,0,0,0.1);
+        }
+    }
+
+    .date{
+        display: inline-block;
+        padding: 1em 0;
+        width: 100px;
+        background: $white;
+        border: 1px solid $border;
+        border-radius: 3em;
+        font-weight: 700;
+        font-size: .75em;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        margin: 1em 0 2em 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #timeline{
+        .listing{
+            width: 90%;    
+            .image_wrapper{
+                margin-right: 1em;
+            }
+            img{
+                width: 50px;
+            }
+            .info{
+                width: 100%;
+                padding: .4em 0 0 0;
+                .job_title{
+                    font-size: 1.25em;
+                }
+            }
+            .job_type{
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #timeline{
+        .listing{
+            .info{
+                .job_info{
+                    display: none;
+                }
+            }
+           
+        }
+    }
+
+}
+

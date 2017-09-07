@@ -1,10 +1,17 @@
-<% @wines.each do |wine| %>
-	
-	<h2><%= link_to wine.name, wine %></h2>
-	<p><%= wine.manufacture %></p>
+<ul id="timeline">
+	<% @wines.each do |wine| %>
+		<a href="/wines/<%= wine.id %>">
+			<li class="listing clearfix">
+				<div class="image_wrapper">
+					<%= image_tag wine.image.thumb.url %>
+				</div>
+				<div class="info">
+					<span class="job_title"><%= wine.name %></span>
+					<span class="job_info"><%= wine.manufacture %><span> &bull;</span> <%= wine.city %> <span>&bull;</span> Jan 1st</span>
+				</div>
+				<span class="job_type full_time">Full-Time</span>
+			</li>
+		</a>
+	<% end %>
 
-<% end %>
-
-<div class="load_more">
-  <button class="button">Load More</button>
-</div>
+</ul>

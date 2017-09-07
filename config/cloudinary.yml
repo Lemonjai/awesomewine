@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: djg9akmdd
+  api_key: '823296472491175'
+  api_secret: pasN1DBVX01Y2_BVffYAXDEIBI8
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: djg9akmdd
+  api_key: '823296472491175'
+  api_secret: pasN1DBVX01Y2_BVffYAXDEIBI8
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: djg9akmdd
+  api_key: '823296472491175'
+  api_secret: pasN1DBVX01Y2_BVffYAXDEIBI8
+  enhance_image_tag: true
+  static_image_support: false

@@ -36,6 +36,7 @@ gem 'country_select'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'jquery-rails'
+gem 'cloudinary'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

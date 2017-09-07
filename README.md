@@ -5,7 +5,8 @@ Purpose: This is a prototype for hobby site and this site is strictly a blog rev
 Goal: To built this website entirely using ReactJS framework for frontend and Ruby on Rails for the backend
 
 **Log Sept 7, 2017:**
--
+- Cloudinary implementation [No local store]
+- Updated the carrierwave files with cloudinary modules
 
 **Log Sept 6, 2017:**
 - Update the Wine Index Page to show jobs
@@ -43,3 +44,9 @@ Goal: To built this website entirely using ReactJS framework for frontend and Ru
 - Country_select
 - Simple_form
 - JQuery-rails
+- Cloudinary
+
+
+**Special Notes:**
+- RMagick doesn't work unless install Imagemagick@6 [https://accidentaltechnologist.com/ruby/installing-rmagick-macos-sierra/]
+- Store & Store_Dir needs to be comment out in the model

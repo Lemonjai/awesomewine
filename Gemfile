@@ -33,6 +33,8 @@ gem 'jbuilder', '~> 2.5'
 # Simple form 
 gem 'simple_form'
 gem 'country_select'
+gem 'carrierwave'
+gem 'mini_magick'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

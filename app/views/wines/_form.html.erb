@@ -1,4 +1,5 @@
 <%= simple_form_for (@wine) do |f| %>
+	<%= f.file_field :image, label: "Pictures" %>
 	<%= f.input :name, label: "Name" %>
 	<%= f.input :manufacture, label: "Manufacture" %>
 	<%= f.input :city, label: "City" %>

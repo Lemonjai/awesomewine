@@ -1,10 +1,10 @@
 <header class="main_header clearfix">
   <div class="logo">
     <img src="https://i.pinimg.com/736x/fb/03/fe/fb03fe98bdd76f364d4097c42338128f--logo-wine-wine-logo-design.jpg" alt="wine_logo">
-    <h1>Awesome<span>Wine</span></h1>
+    <h1><%= link_to "Awesome", root_path %><span><%= link_to "Wine", root_path %></span></h1>
   </div>
   <nav class="nav">
-    <a class="current" href="#">Articles</a>
+    <%= link_to "Articles", root_path, :class => "current" %>
     <a href="#">Reviews</a>
     <a href="#">Events</a>
     <a href="#">Team</a>

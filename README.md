@@ -14,6 +14,8 @@ Log Sept 6, 2017:
 - Added the css for the load more button
 - Added the image uploading function
 - Uploaded the index page for articles
+- Create a model for events & reviews
+- Create a controller for events & reviews
 
 Log Sept 5, 2017:
 - Initial of the application

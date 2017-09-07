@@ -20,6 +20,7 @@ Goal: To built this website entirely using ReactJS framework for frontend and Ru
 - Uploaded the index page for articles
 - Create a model for events & reviews
 - Create a controller for events & reviews
+- Added the image preview functionality
 
 **Log Sept 5, 2017:**
 - Initial of the application

@@ -1,5 +1,9 @@
 <%= simple_form_for (@wine) do |f| %>
-	<%= f.file_field :image, label: "Pictures" %>
+
+  <img id="img_prev" width=300 height=300 src="#" alt="your image" class="img-thumbnail hidden"/> <br/>
+	<%= f.file_field :image, label: "Pictures",id: "image-upload"  %>
+  <%= f.hidden_field :image_cache %>
+
 	<%= f.input :name, label: "Name" %>
 	<%= f.input :manufacture, label: "Manufacture" %>
 	<%= f.input :city, label: "City" %>
@@ -8,5 +12,6 @@
 	<%= f.input :summary, label: "Summary" %>
 	<%= f.input :description, label: "Description" %>
 	<br/>
-	<%= f.button :submit %>
+	<%= f.submit "Add Article" %>
 <% end %>
+

@@ -4,7 +4,7 @@ Purpose: This is a prototype for hobby site and this site is strictly a blog rev
 
 Goal: To built this website entirely using ReactJS framework for frontend and Ruby on Rails for the backend
 
-Log Sept 6, 2017:
+**Log Sept 6, 2017:**
 - Update the Wine Index Page to show jobs
 - Added the new functionality
 - Added the delete functionality
@@ -17,7 +17,7 @@ Log Sept 6, 2017:
 - Create a model for events & reviews
 - Create a controller for events & reviews
 
-Log Sept 5, 2017:
+**Log Sept 5, 2017:**
 - Initial of the application
 - Setup the model for the wine
 - Setup the controller for the wine
@@ -25,14 +25,14 @@ Log Sept 5, 2017:
 - Added the show functionality
 
 
-Technology:
+**Technology:**
 - Ruby on Rails 5.1
 - Postgresql
 - Sass
 - ReactJS [Work in progress]
 - Webpack [Work in progress]
 
-Ruby Gem:
+**Ruby Gem:**
 - Carrierwave
 - Minimagick
 - Country_select

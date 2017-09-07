@@ -8,6 +8,7 @@ Goal: To built this website entirely using ReactJS framework for frontend and Ru
 - Cloudinary implementation [No local store]
 - Updated the carrierwave files with cloudinary modules
 - Added the image preview functionality
+- Update some styles
 
 **Log Sept 6, 2017:**
 - Update the Wine Index Page to show jobs

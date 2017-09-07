@@ -1,17 +1,16 @@
 <%= simple_form_for (@wine) do |f| %>
 
-  <img id="img_prev" width=300 height=300 src="#" alt="your image" class="img-thumbnail hidden"/> <br/>
-	<%= f.file_field :image, label: "Pictures",id: "image-upload"  %>
+  <img id="img_prev" src="http://www.inserco.org/en/sites/all/modules/media_gallery/images/empty_gallery.png" alt="your image" class="form_image"/> <br/>
+	<%= f.file_field :image, label: "Pictures",id: "image-upload" %>
   <%= f.hidden_field :image_cache %>
-
-	<%= f.input :name, label: "Name" %>
+  
+	<br><%= f.input :name, label: "Name" %>
 	<%= f.input :manufacture, label: "Manufacture" %>
 	<%= f.input :city, label: "City" %>
 	<%= f.input :year, label: "Year" %>
 	<%= f.input :country, label: "Country" %>
-	<%= f.input :summary, label: "Summary" %>
-	<%= f.input :description, label: "Description" %>
+	<%= f.input :summary, label: "Summary" %><br>
+	<%= f.input :description, label: "Description" %><br>
 	<br/>
-	<%= f.submit "Add Article" %>
+	<%= f.submit "Add Article" %> 
 <% end %>
-

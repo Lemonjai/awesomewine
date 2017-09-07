@@ -4,10 +4,20 @@
     <h1><%= link_to "Awesome", root_path %><span><%= link_to "Wine", root_path %></span></h1>
   </div>
   <nav class="nav">
-    <%= link_to "Articles", root_path, :class => "current" %>
-    <a href="#">Reviews</a>
-    <a href="#">Events</a>
-    <a href="#">Team</a>
-    <a href="#">Contact</a>
+
+    <% if current_page?(new_wine_path) %>
+      <%= link_to "Articles", root_path, :class => "current" %>
+      <%= link_to "Reviews", reviews_path %>
+      <%= link_to "Events", events_path %>
+      <%= link_to "Team", root_path %>
+      <%= link_to "Log Out", root_path %>
+
+    <% else %>
+      <%= link_to "Articles", root_path, :class => "current" %>
+      <a href="#">Reviews</a>
+      <a href="#">Events</a>
+      <a href="#">Team</a>
+      <a href="#">Contact</a>
+    <% end %>
   </nav>
 </header>

@@ -4,6 +4,9 @@ Purpose: This is a prototype for hobby site and this site is strictly a blog rev
 
 Goal: To built this website entirely using ReactJS framework for frontend and Ruby on Rails for the backend
 
+**Log Sept 7, 2017:**
+-
+
 **Log Sept 6, 2017:**
 - Update the Wine Index Page to show jobs
 - Added the new functionality
@@ -31,6 +34,8 @@ Goal: To built this website entirely using ReactJS framework for frontend and Ru
 - Sass
 - ReactJS [Work in progress]
 - Webpack [Work in progress]
+- Heroku
+- Github
 
 **Ruby Gem:**
 - Carrierwave

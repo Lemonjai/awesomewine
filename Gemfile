@@ -35,6 +35,7 @@ gem 'simple_form'
 gem 'country_select'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'jquery-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

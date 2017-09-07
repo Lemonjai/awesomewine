@@ -28,3 +28,10 @@ Technology:
 - Sass
 - ReactJS [Work in progress]
 - Webpack [Work in progress]
+
+Ruby Gem:
+- Carrierwave
+- Minimagick
+- Country_select
+- Simple_form
+- JQuery-rails

@@ -18,7 +18,7 @@ class WinesController < ApplicationController
 		if @wine.save
 			redirect_to @wine
 		else
-			render "New"
+			render 'new'
 		end
 	end
 
@@ -29,7 +29,7 @@ class WinesController < ApplicationController
 		if @wine.update(wines_params)
 			redirect_to @wine
 		else
-			render "Edit"
+			render 'edit'
 		end
 	end
 

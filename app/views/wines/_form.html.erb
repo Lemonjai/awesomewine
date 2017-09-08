@@ -1,7 +1,7 @@
 <%= simple_form_for (@wine) do |f| %>
 
   <img id="img_prev" src="http://www.inserco.org/en/sites/all/modules/media_gallery/images/empty_gallery.png" alt="your image" class="form_image"/> <br/>
-	<%= f.file_field :image, label: "Pictures",id: "image-upload" %>
+	<%= f.file_field :image, label: "Pictures", onchange: "validateFiles(this);", data: { max_file_size: 5.megabytes }, id: "image-upload" %>
   <%= f.hidden_field :image_cache %>
   
 	<br><%= f.input :name, label: "Name" %>
